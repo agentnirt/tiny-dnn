@@ -114,6 +114,13 @@ make
 
 Then change to `examples` directory and run executable files.
 
+If you would like to debug, and run with examples, type the following commands:
+
+```
+cmake . -DBUILD_EXAMPLES=ON -DCMAKE_BUILD_TYPE=Debug
+make
+```
+
 If you would like to use IDE like Visual Studio or Xcode, you can also use cmake to generate corresponding files:
 
 ```
